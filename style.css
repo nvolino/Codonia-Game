@@ -35,3 +35,15 @@ header {
     background: #222;
     border-radius: 10px;
 }
+
+.gamification {
+    background-color: #121212; /* Dark background */
+    color: white;
+    padding: 40px;
+}
+
+.game-info {
+    background-color: white; /* White background */
+    color: black;
+    padding: 40px;
+}
