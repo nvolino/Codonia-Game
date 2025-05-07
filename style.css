@@ -12,7 +12,7 @@
 body {
     font-family: 'Orbitron', sans-serif;
     text-align: center;
-    background-color: var(--primary-color);
+    background-color: white; /* Change the background to white */
     color: var(--text-color);
     margin: 0;
     padding: 0;
@@ -340,6 +340,67 @@ p {
     letter-spacing: 0.5px;
     text-align: justify;
     margin: 0 20px 20px;
+}
+
+#subscribe-section {
+    background-color: white; /* Set the section background to white */
+    padding: 40px 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%; /* Full width of the container */
+    max-width: 100%; /* Ensure it spans the full container width */
+}
+
+#mc_embed_signup {
+    background-color: white; /* Set the form background to white */
+    color: var(--text-color); /* Ensure text color matches the design */
+    padding: 20px;
+    border-radius: 0; /* Remove rounded corners */
+    box-shadow: none; /* Remove shadow */
+    width: 100%; /* Full width of the container */
+    max-width: 600px; /* Optional: Limit the form width */
+    margin: 0 auto; /* Center the form */
+    text-align: center;
+}
+
+#mc_embed_signup h2 {
+    font-size: 28px;
+    color: var(--accent-color); /* Use the accent color for the heading */
+    margin-bottom: 20px;
+}
+
+#mc_embed_signup p {
+    font-size: 16px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+#mc_embed_signup input[type="email"],
+#mc_embed_signup input[type="text"] {
+    width: 100%; /* Full width of the container */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f9f9f9; /* Light background for inputs */
+    color: #333; /* Dark text for readability */
+}
+
+#mc_embed_signup .button {
+    background-color: var(--accent-color); /* Use the accent color for the button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* Full width of the container */
+}
+
+#mc_embed_signup .button:hover {
+    background-color: #006666; /* Slightly darker shade on hover */
 }
 
 footer {
